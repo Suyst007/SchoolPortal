@@ -88,7 +88,7 @@ public class AuthService {
 
 
 
-public String gitMessage(){
+public void gitMessage(){
     System.out.print("hi");
 }
 
