@@ -18,7 +18,7 @@ public ResponseEntity<ErrorDetails> allExceptions(Exception e, WebRequest webReq
         ErrorDetails erorDetails1 = new ErrorDetails(e.getMessage(),webRequest.getDescription(true),new Date() );
         return new ResponseEntity<>(erorDetails1, HttpStatus.INTERNAL_SERVER_ERROR);
     }
-System.out.println("Hi");
+System.out.println("HiHi");
 
 
 }
